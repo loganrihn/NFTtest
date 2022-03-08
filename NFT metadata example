@@ -1,0 +1,54 @@
+{
+  "name": "CyberDocs #0",
+  "symbol": "DOC",
+  "description": "Come be a part of this first ever healthcare inspired NFT collection!",
+  "seller_fee_basis_points": 1000,
+  "image": "0.png",
+  "external_url": "https://www.youtube.com/c/hashlipsnft",
+  "edition": 0,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "eyes",
+      "value": "Wide"
+    },
+    {
+      "trait_type": "outfit",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "masks",
+      "value": "Pink"
+    },
+    {
+      "trait_type": "hair",
+      "value": "Female"
+    },
+    {
+      "trait_type": "items",
+      "value": "Stethoscope"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "0.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "BPnRMFVcXmUaaDj4nUDY6ccsnLG2eUFoGXpD2EqFJnXQ",
+        "share": 100
+      }
+    ]
+  }
+}
