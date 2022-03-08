@@ -1,0 +1,45 @@
+# NFTtest test
+
+INPUT CODE:
+
+C:\Users\logan\Desktop\cydoc\~\metaplex\js\packages\cli\src\candy-machine-v2-cli.ts
+-e devnet \
+    -k C:\Users\logan\Desktop\cydoc\~\metaplex\js\cm-devnet.json \
+    -cp C:\Users\logan\Desktop\cydoc\~\metaplex\js\config.json \
+    -c example \
+    ./C:\Users\logan\Desktop\cydoc\~\metaplex\js\assets-docs-10
+
+candy machine with publickey: 6PRLjUW13pUhuwpwf84FBT2v6DoB3hvKZV3TGk33jsYN
+
+
+solana-keygen new --outfile cm-devnet.json
+solana config set --keypair cm-devnet.json
+solana airdrop 1 BPnRMFVcXmUaaDj4nUDY6ccsnLG2eUFoGXpD2EqFJnXQ --url https://api.devnet.solana.com
+solana airdrop 1 BPnRMFVcXmUaaDj4nUDY6ccsnLG2eUFoGXpD2EqFJnXQ --url https://api.testnet.solana.com
+
+solana config set --url https://psytrbhymqlkfrhudd.dev.genesysgo.net:8899/
+solana config set --url https://api.devnet.solana.com
+
+
+Wrote new keypair to cm-devnet.json
+=====================================================================================
+pubkey: BPnRMFVcXmUaaDj4nUDY6ccsnLG2eUFoGXpD2EqFJnXQ
+=====================================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+meadow scorpion kingdom usage ticket topic jealous copy better recall slogan indicate
+=====================================================================================
+PS C:\Users\logan\Desktop\cydoc\~\metaplex\js>
+
+ts-node packages\cli\src\candy-machine-v2-cli.ts upload -e devnet -k cm-devnet.json -cp config.json -c example ./assets-docs-10
+
+ts-node packages\cli\src\candy-machine-v2-cli.ts verify_upload -e devnet -k cm-devnet.json -c example
+
+ts-node packages\cli\src\candy-machine-v2-cli.ts mint_one_token -e devnet -k cm-devnet.json -c example
+
+ts-node packages\cli\src\candy-machine-v2-cli.ts update_candy_machine -e devnet -k cm-devnet.json -cp config.json -c example ./assets-docs-10
+
+
+
+
+
+ts-node packages\cli\src\candy-machine-v2-cli.ts upload -e devnet -k cm-devnet.json -cp config.json -c example ./packages/cli/example-assets
