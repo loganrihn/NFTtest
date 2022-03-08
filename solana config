@@ -1,0 +1,8 @@
+PS C:\Users\logan\Desktop\cydoc\~\metaplex\js>  solana config get
+
+Config File: C:\Users\logan\.config\solana\cli\config.yml
+RPC URL: https://api.devnet.solana.com 
+WebSocket URL: wss://api.devnet.solana.com/ (computed)
+Keypair Path: C:\Users\logan\Desktop\cydoc\~\metaplex\js\cm-devnet.json
+Commitment: confirmed
+PS C:\Users\logan\Desktop\cydoc\~\metaplex\js>
