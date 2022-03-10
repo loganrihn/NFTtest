@@ -1,0 +1,11 @@
+# NFTtest
+
+PS C:\Users\logan\Desktop\cyd> ts-node --version
+v10.5.0
+PS C:\Users\logan\Desktop\cyd> git --version
+git version 2.35.1.windows.2
+PS C:\Users\logan\Desktop\cyd> solana --version
+solana-cli 1.9.7 (src:08cc140d; feat:2191737503)
+PS C:\Users\logan\Desktop\cyd> yarn --version
+1.22.17
+PS C:\Users\logan\Desktop\cyd> 
