@@ -1,0 +1,38 @@
+PS C:\Users\logan\Desktop\cydoc\~\metaplex\js> ts-node packages\cli\src\candy-machine-v2-cli.ts upload -e devnet -k cm-devnet.json -cp config.json -c example ./assets-docs-10
+wallet public key: BPnRMFVcXmUaaDj4nUDY6ccsnLG2eUFoGXpD2EqFJnXQ
+WARNING: The "arweave" storage option will be going away soon. Please migrate to arweave-bundle or arweave-sol for mainnet.
+
+Beginning the upload for 10 (img+json) pairs
+started at: 1646929584017
+initializing candy machine
+initialized config for a candy machine with publickey: FuZBubk64tctpoTuDdhUmoRuRUU7AnY8twykm7bdha7w
+Uploading Size 10 { mediaExt: '.png', index: '0' }
+Processing asset: 0
+Processing asset: 1
+Processing asset: 2
+Processing asset: 3
+Processing asset: 4
+Processing asset: 5
+Processing asset: 6
+Processing asset: 7
+Processing asset: 8
+Processing asset: 9
+Writing indices 0-9
+Done. Successful = true.
+ended at: 2022-03-10T16:28:58.952Z. time taken: 00:02:34
+PS C:\Users\logan\Desktop\cydoc\~\metaplex\js> ts-node packages\cli\src\candy-machine-v2-cli.ts verify_upload -e devnet -k cm-devnet.json -c example
+wallet public key: BPnRMFVcXmUaaDj4nUDY6ccsnLG2eUFoGXpD2EqFJnXQ
+Key size 10
+Looking at key  0
+Looking at key  1
+Looking at key  2
+Looking at key  3
+Looking at key  4
+Looking at key  5
+Looking at key  6
+Looking at key  7
+Looking at key  8
+Looking at key  9
+uploaded (10) out of (10)
+ready to deploy!
+PS C:\Users\logan\Desktop\cydoc\~\metaplex\js> 
